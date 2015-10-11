@@ -1,0 +1,12 @@
+<ion-view view-title="Device">
+  <ion-content ng-controller="Device as vm">
+    <h1>Device info</h1>
+	<ul>
+		<li>Device name: <span>{{vm.device.model}}</span></li>
+		<li>Cordova version: <span>{{vm.device.cordova}}</span></li>
+		<li>Device platform: <span>{{vm.device.platform}}</span></li>
+		<li>Device UUID: <span>{{vm.device.uuid}}</span></li>
+		<li>Device version: <span>{{vm.device.version}}</span></li>
+	</ul>
+  </ion-content>
+</ion-view>
